@@ -1,0 +1,16 @@
+//PROGRAM TO FIND AREA OF RECTANGLE USING FUNCTION//
+#include<stdio.h>
+#include<conio.h>
+int ar(int l,int b)
+{
+	int a;
+	a=l*b;
+	return a;
+}
+main()
+{
+	int l,b,area;
+	scanf("%d%d",&l,&b);
+	area=ar(l,b);
+	printf("Area of rectangle=%d",area);
+}
