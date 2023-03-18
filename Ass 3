@@ -1,0 +1,20 @@
+//PROGRAM TO FIND FACTORIAL OF NUM USING FUNCTION//
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int factorial(int);
+	int n;
+	scanf("%d",&n);
+	factorial(n);	
+}
+int factorial(int n)
+{
+	int fact=1;
+	while(n!=0)
+	{
+		fact=fact*n;
+		n--;
+	}
+	printf("%d",fact);
+}
