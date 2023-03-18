@@ -1,0 +1,14 @@
+//PROGRAM ON CUBE OF N USING SUB FUNCTION//
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int cube(int);
+	int n;
+	scanf("%d",&n);
+	printf("%d",cube(n));
+}
+int cube(int a)
+{
+return(a*a*a);
+}
